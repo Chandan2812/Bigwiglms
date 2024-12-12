@@ -9,8 +9,8 @@ const images = [
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9uRhrFEy92ZT2kK8pocRv1zkP6TUXUoKr21BDz60xcs4kOtuRdk-vF0MuEVQbJRsKdA&usqp=CAU",
   "https://pmdindia.in/api/u/serverImg/Sugam%20Group%20(1).jpg",
   "https://i.pinimg.com/736x/60/0e/bb/600ebb84b3a15bb5c086b9873be5b2a7.jpg",
-  "https://banner2.cleanpng.com/20180724/oqp/a878b1773528860302fb4875c789ae4f.webp",
-  "https://ncclimited.com/img/Legacy-NCC-1.jpg",
+  "https://1000logos.net/wp-content/uploads/2021/05/Hallmark-logo.png",
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTotQAqu-hz_UJjFe1Ct3umM7jpmauuB_VkKQ&s",
   "https://logowik.com/content/uploads/images/paradigm7416.jpg",
   "https://cdn.prod.website-files.com/6128d68a91ec1144618a169a/655ca74d4414aabe398ad683_Saarathi_black_orange_tm.svg",
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbxKtGVNyB6hUJK-WvWQyKY_76gg0pp-oIPw&s"
