@@ -2,16 +2,13 @@ import Slider from 'react-slick';
 import styled from 'styled-components';
 import '../App.css';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'; // Importing Font Awesome icons
-import image1 from "../assets/20945376.jpg"
-import image2 from "../assets/7038058.jpg"
-import image3 from "../assets/business-scene-top-view.jpg"
-import image4 from "../assets/still-life-business-roles-with-various-pawns.jpg"
+
 
 const images = [
-    { logo: image1 },
-    { logo: image2 },
-    { logo: image3 },
-    { logo: image4 },
+    { logo: "https://wallpapers.com/images/hd/real-estate-miniature-house-model-zcovmnik4h0l5s7k.jpg" },
+    { logo: "https://wallpapers.com/images/hd/real-estate-digital-art-0kmi22tcj2x60lim.jpg" },
+    { logo: "https://png.pngtree.com/background/20210710/original/pngtree-green-422-earth-day-background-picture-image_1044363.jpg" },
+    { logo: "https://static.vecteezy.com/system/resources/thumbnails/022/527/605/small_2x/house-of-dream-idea-real-estate-illustration-ai-generative-free-photo.jpg" },
 ];
 
 const Hero = () => {
@@ -125,21 +122,20 @@ const StyledSlider = styled(Slider)`
 `;
 
 const LogoAndName = styled.div`
-background-color: var(--white-color);
-    box-shadow: 0 8px 8px var(--teal-color);
-    height: 500px; /* Fixed height for carousel */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    overflow: hidden; /* Hide overflow if content exceeds */
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1rem;
+  background-color: var(--white-color);
+  box-shadow: 0 8px 8px var(--teal-color);
+  height: 600px; /* Increase height for the carousel */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden; /* Hide overflow if content exceeds */
+  margin-bottom: 1rem;
 
-    @media (max-width: 768px) {
-        height: 300px;
-    }
+  @media (max-width: 768px) {
+    height: 400px; /* Increase height for smaller screens */
+  }
 `;
+
 
 const Logo = styled.img`
     width: 100%; 
