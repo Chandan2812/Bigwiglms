@@ -1,12 +1,8 @@
-import admission from '../assets/features/admission5.webp';
-import application from "../assets/features/paidApplication.webp";
-import lead from "../assets/features/lead-management.webp";
-import conselor from "../assets/features/counselor.webp";
-import student from "../assets/features/student panel.webp";
+
 import admin from "../assets/features/admin panel.webp";
 import vendor from "../assets/features/vendor.webp";
 import document from "../assets/features/document (1).webp";
-import communication from '../assets/features/communication.webp';
+import communication from '../assets/features/counselor.webp';
 
 function Features() {
   const featureData = [
@@ -20,7 +16,7 @@ function Features() {
         "Real-Time Updates",
         "Seamless Property Search",
       ],
-      imageUrl: admission, // Keep the same image for now
+      imageUrl: "https://static.vecteezy.com/system/resources/previews/012/958/739/non_2x/3d-home-insurance-icon-toy-house-floating-in-hand-isolated-on-transparent-business-invest-real-estate-mortgage-offer-of-purchase-house-loan-concept-mockup-cartoon-minimal-icon-3d-rendering-png.png", // Keep the same image for now
     },
     {
       title: "Lead Management",
@@ -32,7 +28,7 @@ function Features() {
         "Real-Time Notifications",
         "Effective Lead Assignment",
       ],
-      imageUrl: application, // Keep the same image for now
+      imageUrl: "https://img.freepik.com/free-vector/generating-new-leads-concept-illustration_114360-7654.jpg", // Keep the same image for now
     },
     {
       title: "Client & Agent Communication",
@@ -44,7 +40,7 @@ function Features() {
         "Instant Notifications",
         "Scheduled Follow-ups",
       ],
-      imageUrl: lead, // Keep the same image for now
+      imageUrl: "https://img.freepik.com/free-vector/open-mind-psychotherapy-composition-with-discussion-symbols-flat-vector-illustration_1284-78150.jpg", // Keep the same image for now
     },
     {
       title: "Agent Performance Monitoring",
@@ -56,7 +52,7 @@ function Features() {
         "Performance Metrics",
         "Target-Based Tracking",
       ],
-      imageUrl: conselor, // Keep the same image for now
+      imageUrl: "https://natterbox.com/wp-content/uploads/2023/08/Banner-Image-8-Simple-Ways-to-Improve-Agent-Performance-in-the-Call-Center.png", // Keep the same image for now
     },
     {
       title: "Property Search & Filters",
@@ -68,7 +64,7 @@ function Features() {
         "Price Range Adjustments",
         "Save & Share Listings",
       ],
-      imageUrl: student, // Keep the same image for now
+      imageUrl: "https://png.pngtree.com/png-clipart/20240109/original/pngtree-find-property-png-image_14057230.png", // Keep the same image for now
     },
     {
       title: "Admin Dashboard",
