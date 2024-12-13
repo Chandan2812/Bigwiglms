@@ -63,7 +63,7 @@ function Nav() {
           </svg>
         </button>
 
-        <div className="hidden md:flex gap-8 space-x-6 text-gray-600">
+        <div className="hidden font-bold text-lg md:flex gap-8 space-x-6 text-gray-600">
           <button onClick={() => handleScrollToSection('home')} className="hover:text-black">
             Home
           </button>
@@ -91,7 +91,7 @@ function Nav() {
     )}
 
       {isOpen && (
-        <div className="absolute top-14 right-0 bg-white shadow-lg rounded-md p-4 flex flex-col space-y-4 z-50 h-[30vh] w-full max-w-md">
+        <div className="absolute text-lg top-14 right-0 bg-white shadow-lg rounded-md p-4 flex flex-col space-y-4 z-50 h-[30vh] w-full max-w-md">
           <button onClick={() => handleScrollToSection('home')} className="hover:text-black">
             Home
           </button>
