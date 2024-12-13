@@ -37,9 +37,8 @@ function Nav() {
         <span className="text-green-500 text-2xl font-bold">w</span>
         <span className="text-purple-500 text-2xl font-bold">i</span>
         <span className="text-pink-500 text-2xl font-bold">g</span>
-        <span className="text-teal-500 text-2xl font-bold">l</span>
-        <span className="text-indigo-500 text-2xl font-bold">m</span>
-        <span className="text-orange-500 text-2xl font-bold">s</span>
+        <span className="text-teal-500 text-2xl font-bold">LMS</span>
+
       </div>
 
 
