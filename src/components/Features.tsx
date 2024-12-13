@@ -8,88 +8,88 @@ import { motion } from "framer-motion";
 function Features() {
   const featureData = [
     {
-      title: "Property Listings Management",
+      title: "Lead Capture",
       description:
-        "Manage your property listings with ease. From creating new listings to updating details, ensure accurate and up-to-date property information for your clients.",
+        "Effortlessly collect leads from various sources, including your website, social media platforms, and ad campaigns. Ensure no potential client is missed with our automated lead collection tools.",
       listItems: [
-        "Easy Listing Creation",
-        "Detailed Property Descriptions",
-        "Real-Time Updates",
-        "Seamless Property Search",
+        "Website Integration",
+        "Social Media Tracking",
+        "Ad Campaign Integration",
+        "Centralized Lead Database",
       ],
-      imageUrl: "https://static.vecteezy.com/system/resources/previews/012/958/739/non_2x/3d-home-insurance-icon-toy-house-floating-in-hand-isolated-on-transparent-business-invest-real-estate-mortgage-offer-of-purchase-house-loan-concept-mockup-cartoon-minimal-icon-3d-rendering-png.png", // Keep the same image for now
+      imageUrl: "https://20088174.fs1.hubspotusercontent-na1.net/hub/20088174/hubfs/How-to-Use-Automated-Real-Estate-Lead-Generations.png?width=1800&quality=high",
     },
     {
       title: "Lead Management",
       description:
-        "Centralize, manage, and track your real estate leads. Assign, score, and track leads effectively to convert more potential clients into sales.",
+        "Organize and update all your leads in one place with our intuitive management tools. Easily search, filter, and prioritize your pipeline for maximum efficiency.",
       listItems: [
-        "Lead Source Tracking",
-        "Lead Scoring & Prioritization",
-        "Real-Time Notifications",
-        "Effective Lead Assignment",
-      ],
-      imageUrl: "https://img.freepik.com/free-vector/generating-new-leads-concept-illustration_114360-7654.jpg", // Keep the same image for now
-    },
-    {
-      title: "Client & Agent Communication",
-      description:
-        "Streamline communication between agents and clients. With centralized messaging, stay connected and responsive with potential buyers and sellers.",
-      listItems: [
-        "Centralized Messaging Hub",
-        "Email, SMS & Call Tracking",
-        "Instant Notifications",
-        "Scheduled Follow-ups",
-      ],
-      imageUrl: "https://img.freepik.com/free-vector/open-mind-psychotherapy-composition-with-discussion-symbols-flat-vector-illustration_1284-78150.jpg", // Keep the same image for now
-    },
-    {
-      title: "Agent Performance Monitoring",
-      description:
-        "Track agent performance in real-time. Monitor closed deals, active listings, and performance metrics to drive productivity and identify areas for improvement.",
-      listItems: [
-        "Deal Tracking",
-        "Agent Productivity Insights",
-        "Performance Metrics",
-        "Target-Based Tracking",
-      ],
-      imageUrl: "https://natterbox.com/wp-content/uploads/2023/08/Banner-Image-8-Simple-Ways-to-Improve-Agent-Performance-in-the-Call-Center.png", // Keep the same image for now
-    },
-    {
-      title: "Property Search & Filters",
-      description:
-        "Provide your clients with an intuitive property search experience. Use filters to refine property searches based on location, price, size, and other preferences.",
-      listItems: [
-        "Advanced Search Filters",
-        "Location-Based Search",
-        "Price Range Adjustments",
-        "Save & Share Listings",
-      ],
-      imageUrl: "https://png.pngtree.com/png-clipart/20240109/original/pngtree-find-property-png-image_14057230.png", // Keep the same image for now
-    },
-    {
-      title: "Admin Dashboard",
-      description:
-        "Manage the entire platform with a comprehensive admin dashboard. Control listings, manage users, track performance, and get detailed reports in one place.",
-      listItems: [
-        "Full Platform Control",
-        "User Management",
-        "Analytics & Reports",
+        "Centralized Dashboard",
+        "Quick Lead Search",
+        "Custom Filters",
         "Real-Time Updates",
       ],
-      imageUrl: admin, // Keep the same image for now
+      imageUrl: "https://static.vecteezy.com/system/resources/previews/012/958/739/non_2x/3d-home-insurance-icon-toy-house-floating-in-hand-isolated-on-transparent-business-invest-real-estate-mortgage-offer-of-purchase-house-loan-concept-mockup-cartoon-minimal-icon-3d-rendering-png.png",
     },
     {
-      title: "Vendor & Partner Management",
+      title: "Lead Assignment",
       description:
-        "Streamline your relationships with vendors, contractors, and partners. Track performance, manage contracts, and ensure effective collaboration.",
+        "Distribute leads smartly among team members or agents. Ensure fast and effective follow-ups with automated or manual lead assignment based on customizable criteria.",
       listItems: [
-        "Vendor Performance Tracking",
-        "Contract Management",
-        "Centralized Communication",
-        "Improved Collaboration",
+        "Smart Lead Distribution",
+        "Custom Assignment Rules",
+        "Real-Time Notifications",
+        "Improved Response Times",
       ],
-      imageUrl: vendor, // Keep the same image for now
+      imageUrl: "https://static.vecteezy.com/system/resources/previews/012/958/739/non_2x/3d-home-insurance-icon-toy-house-floating-in-hand-isolated-on-transparent-business-invest-real-estate-mortgage-offer-of-purchase-house-loan-concept-mockup-cartoon-minimal-icon-3d-rendering-png.png",
+    },
+    {
+      title: "Follow-Up and Nurturing",
+      description:
+        "Keep your leads engaged with powerful follow-up tools. Reach out via emails, calls, or text messages and schedule reminders to maintain consistent communication.",
+      listItems: [
+        "Automated Follow-Ups",
+        "Multi-Channel Communication",
+        "Customizable Templates",
+        "Scheduled Reminders",
+      ],
+      imageUrl: "https://static.vecteezy.com/system/resources/previews/012/958/739/non_2x/3d-home-insurance-icon-toy-house-floating-in-hand-isolated-on-transparent-business-invest-real-estate-mortgage-offer-of-purchase-house-loan-concept-mockup-cartoon-minimal-icon-3d-rendering-png.png",
+    },
+    {
+      title: "Analytics and Reporting",
+      description:
+        "Gain valuable insights into your lead management process with our detailed analytics and reports. Track conversion rates, agent performance, and response times with ease.",
+      listItems: [
+        "Detailed Reports",
+        "Conversion Rate Analysis",
+        "Performance Tracking",
+        "Customizable Dashboards",
+      ],
+      imageUrl: "https://static.vecteezy.com/system/resources/previews/012/958/739/non_2x/3d-home-insurance-icon-toy-house-floating-in-hand-isolated-on-transparent-business-invest-real-estate-mortgage-offer-of-purchase-house-loan-concept-mockup-cartoon-minimal-icon-3d-rendering-png.png",
+    },
+    {
+      title: "Integration with CRM and Marketing Tools",
+      description:
+        "Easily sync with your favorite CRM and marketing platforms to streamline your workflows and enhance efficiency.",
+      listItems: [
+        "CRM Synchronization",
+        "Marketing Tool Integration",
+        "Streamlined Workflow",
+        "Enhanced Collaboration",
+      ],
+      imageUrl: "https://static.vecteezy.com/system/resources/previews/012/958/739/non_2x/3d-home-insurance-icon-toy-house-floating-in-hand-isolated-on-transparent-business-invest-real-estate-mortgage-offer-of-purchase-house-loan-concept-mockup-cartoon-minimal-icon-3d-rendering-png.png",
+    },
+    {
+      title: "Automated Notifications",
+      description:
+        "Stay on top of your leads with instant alerts and reminders. Ensure timely follow-ups and lead updates to never miss an opportunity.",
+      listItems: [
+        "Instant Alerts",
+        "Follow-Up Reminders",
+        "Custom Notification Settings",
+        "Real-Time Updates",
+      ],
+      imageUrl: "https://static.vecteezy.com/system/resources/previews/012/958/739/non_2x/3d-home-insurance-icon-toy-house-floating-in-hand-isolated-on-transparent-business-invest-real-estate-mortgage-offer-of-purchase-house-loan-concept-mockup-cartoon-minimal-icon-3d-rendering-png.png",
     },
     {
       title: "Document Management & E-signatures",
