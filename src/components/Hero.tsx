@@ -42,7 +42,7 @@ const Hero = () => {
     };
 
     return (
-        <div className='bg-blue-50 pt-20 md:pt-24'> {/* Add pt-32 for top padding, creates space below nav */}
+        <div className='bg-blue-50 pt-20 md:pt-14'> {/* Add pt-32 for top padding, creates space below nav */}
             <div className="w-full">
                 <StyledSlider {...settings}>
                     {images.map((image, index) => (
