@@ -75,7 +75,7 @@ const LayoutComponent: React.FC = () => {
       </style>
       <div
         ref={sectionRef}
-        className="flex flex-col md:flex-row items-center p-4 px-10 md:px-20 py-10 md:py-16 my-12 md:my-20 bg-gray-50"
+        className="flex flex-col md:flex-row items-center p-4 px-10 md:px-20 py-10 md:py-16 bg-gray-50"
       >
         {/* Left Side (Text Section) */}
         <div className="md:w-1/2 w-full text-left md:mr-8 mb-4 md:mb-0">
