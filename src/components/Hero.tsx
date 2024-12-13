@@ -7,7 +7,7 @@ import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'; // Importing Fon
 const images = [
     { logo: "https://wallpapers.com/images/hd/real-estate-miniature-house-model-zcovmnik4h0l5s7k.jpg" },
     { logo: "https://wallpapers.com/images/hd/real-estate-digital-art-0kmi22tcj2x60lim.jpg" },
-    { logo: "https://png.pngtree.com/background/20210710/original/pngtree-green-422-earth-day-background-picture-image_1044363.jpg" },
+    { logo: "https://images.pexels.com/photos/1546168/pexels-photo-1546168.jpeg?cs=srgb&dl=pexels-davidmcbee-1546168.jpg&fm=jpg" },
     { logo: "https://static.vecteezy.com/system/resources/thumbnails/022/527/605/small_2x/house-of-dream-idea-real-estate-illustration-ai-generative-free-photo.jpg" },
 ];
 
