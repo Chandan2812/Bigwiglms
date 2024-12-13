@@ -27,7 +27,7 @@ const Hero = () => {
                             <input
                                 type="text"
                                 id="name"
-                                className="w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+                                className=" p-2 w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
                                 placeholder="Enter your name"
                             />
                         </div>
@@ -36,7 +36,7 @@ const Hero = () => {
                             <input
                                 type="email"
                                 id="email"
-                                className="w-full border-gray-300 rounded-md shadow-sm focus:ring-teal-500 focus:border-teal-500"
+                                className="w-full p-2 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
                                 placeholder="Enter your email"
                             />
                         </div>
@@ -45,7 +45,7 @@ const Hero = () => {
                             <input
                                 type="tel"
                                 id="phone"
-                                className="w-full border-gray-300 rounded-md shadow-sm focus:ring-teal-500 focus:border-teal-500"
+                                className="w-full p-2 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
                                 placeholder="Enter your phone number"
                             />
                         </div>
@@ -67,7 +67,7 @@ const HeroContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
+    padding: 1rem 3rem 2rem 3rem;
     gap: 2rem;
 
     @media (min-width: 768px) {
@@ -87,10 +87,15 @@ const TextContent = styled.div`
 
 const FormContainer = styled.div`
     flex: 1;
+    max-width: 400px;  /* Decrease form width */
     background-color: #ffffff;
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+
+    @media (min-width: 768px) {
+        max-width: 450px;  /* Ensure the form has a reasonable max width on larger screens */
+    }
 `;
 
 const CallToAction = styled.a`
