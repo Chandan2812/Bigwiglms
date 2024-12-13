@@ -3,6 +3,7 @@ import admin from "../assets/features/admin panel.webp";
 import vendor from "../assets/features/vendor.webp";
 import document from "../assets/features/document (1).webp";
 import communication from '../assets/features/counselor.webp';
+import { motion } from "framer-motion";
 
 function Features() {
   const featureData = [
@@ -116,39 +117,67 @@ function Features() {
     },
   ];
   
+  const variants = {
+    hidden: (direction: string) => ({
+      opacity: 0,
+      x: direction === "left" ? -100 : 100,
+    }),
+    visible: {
+      opacity: 1,
+      x: 0,
+      transition: {
+        duration: 0.5,
+        ease: "easeInOut",
+      },
+    },
+  };
 
   return (
     <div id="features" className="py-16 px-8 sm:px-12">
       {featureData.map((feature, index) => (
         <div
           key={index}
-          className={`max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-2 md:gap-8 mt-${index === 0 ? 0 : 16} mt-10`}
+          className={`max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-2 md:gap-8 mt-${
+            index === 0 ? 0 : 16
+          } mt-10`}
         >
           {/* Feature */}
-          <div className={index % 2 === 0 ? "" : "order-1 md:order-2"}>
+          <motion.div
+            className={index % 2 === 0 ? "" : "order-1 md:order-2"}
+            custom={index % 2 === 0 ? "left" : "right"}
+            initial="hidden"
+            animate="visible"
+            variants={variants}
+          >
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 leading-tight transition-colors duration-300">
               {feature.title}
             </h2>
             <p className="text-lg text-gray-600 mt-4">{feature.description}</p>
             <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4 text-gray-800">
               {feature.listItems.map((item, i) => (
-                <ul key={i} className=" transition-colors duration-300">
+                <ul key={i} className="transition-colors duration-300">
                   <li className="flex items-center gap-2">
                     <span className="text-blue-500 text-xl">✔</span> {item}
                   </li>
                 </ul>
               ))}
             </div>
-          </div>
+          </motion.div>
 
           {/* Image */}
-          <div className="flex justify-center mb-10 md:mb-4 order-2 md:order-1">
+          <motion.div
+            className="flex justify-center mb-10 md:mb-4 order-2 md:order-1"
+            custom={index % 2 === 0 ? "right" : "left"}
+            initial="hidden"
+            animate="visible"
+            variants={variants}
+          >
             <img
               src={feature.imageUrl}
               alt={feature.title}
               className="w-96 max-w-md md:max-w-lg transition-transform duration-300"
             />
-          </div>
+          </motion.div>
         </div>
       ))}
     </div>
