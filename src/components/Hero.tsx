@@ -1,145 +1,101 @@
-import Slider from 'react-slick';
 import styled from 'styled-components';
 import '../App.css';
-import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'; // Importing Font Awesome icons
-
-
-const images = [
-    { logo: "https://wallpapers.com/images/hd/real-estate-miniature-house-model-zcovmnik4h0l5s7k.jpg" },
-    { logo: "https://wallpapers.com/images/hd/real-estate-digital-art-0kmi22tcj2x60lim.jpg" },
-    { logo: "https://images.pexels.com/photos/1546168/pexels-photo-1546168.jpeg?cs=srgb&dl=pexels-davidmcbee-1546168.jpg&fm=jpg" },
-    { logo: "https://static.vecteezy.com/system/resources/thumbnails/022/527/605/small_2x/house-of-dream-idea-real-estate-illustration-ai-generative-free-photo.jpg" },
-];
 
 const Hero = () => {
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1, // Show one image at a time
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        pauseOnHover: false,
-        prevArrow: <FaChevronLeft />,
-        nextArrow: <FaChevronRight />,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                }
-            }
-        ]
-    };
-
     return (
-        <div className='bg-blue-50 pt-20 md:pt-14'> {/* Add pt-32 for top padding, creates space below nav */}
-            <div className="w-full">
-                <StyledSlider {...settings}>
-                    {images.map((image, index) => (
-                        <div key={index} className="tool-item p-0"> {/* Removed padding for no gap */}
-                                <LogoAndName>
-                                    <Logo src={image.logo} alt={`logo`} />
-                                </LogoAndName>
+        <div className="bg-blue-50 pt-20 md:pt-24">
+            <HeroContainer>
+                {/* Left Section - Text Content */}
+                <TextContent>
+                    <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+                        Manage Real Estate Leads Efficiently
+                    </h1>
+                    <p className="text-lg text-gray-600 mb-6">
+                        Our system helps you track, manage, and convert real estate leads with ease. Maximize your efficiency and grow your business today!
+                    </p>
+                    <CallToAction href="#features" className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md hover:bg-blue-700 transition duration-300">
+                        Learn More
+                    </CallToAction>
+                </TextContent>
+
+                {/* Right Section - Form */}
+                <FormContainer>
+                    <h2 className="text-2xl font-semibold text-gray-800 mb-4">Get Started Now</h2>
+                    <form className="space-y-4">
+                        <div>
+                            <label className="block text-gray-600 text-sm font-medium mb-1" htmlFor="name">Your Name</label>
+                            <input
+                                type="text"
+                                id="name"
+                                className="w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+                                placeholder="Enter your name"
+                            />
                         </div>
-                    ))}
-                </StyledSlider>
-            </div>
+                        <div>
+                            <label className="block text-gray-600 text-sm font-medium mb-1" htmlFor="email">Email Address</label>
+                            <input
+                                type="email"
+                                id="email"
+                                className="w-full border-gray-300 rounded-md shadow-sm focus:ring-teal-500 focus:border-teal-500"
+                                placeholder="Enter your email"
+                            />
+                        </div>
+                        <div>
+                            <label className="block text-gray-600 text-sm font-medium mb-1" htmlFor="phone">Phone Number</label>
+                            <input
+                                type="tel"
+                                id="phone"
+                                className="w-full border-gray-300 rounded-md shadow-sm focus:ring-teal-500 focus:border-teal-500"
+                                placeholder="Enter your phone number"
+                            />
+                        </div>
+                        <button
+                            type="submit"
+                            className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg shadow-md hover:bg-blue-700 transition duration-300"
+                        >
+                            Submit
+                        </button>
+                    </form>
+                </FormContainer>
+            </HeroContainer>
         </div>
     );
 };
 
-const StyledSlider = styled(Slider)`
-    .slick-list {
-        padding: 0;
-        margin: 0;
-        overflow: hidden;  /* Hide overflow if any */
-    }
+const HeroContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
 
-    .slick-dots {
-        bottom: 0px;  /* Adjust dot position */
-        z-index: 1; /* Ensure dots are above other content */
-        position: relative;
-        background-color: var(--blue-color); /* Set background color */
-        padding: 10px 0;  /* Reduced padding for better positioning */
-        border-radius: 10px;
-    }
-
-    .slick-prev, .slick-next {
-        background-color: white;
-        border: none;
-        border-radius:20px;
-        padding:2px;
-        color: var(--teal-color);
-        font-size: 1rem;
-        z-index: 10;
-        cursor: pointer;
-        transition: color 0.3s ease;
-        position: absolute; /* Position arrows absolutely on top */
-        top: 50%; /* Center the arrows vertically */
-        transform: translateY(-50%); /* Align the arrows in the center */
-    }
-
-    .slick-prev {
-        left: 20px; /* Position left arrow closer to the left edge */
-    }
-
-    .slick-next {
-        right: 20px; /* Position right arrow closer to the right edge */
-    }
-
-    /* Hide arrows on mobile screens */
-    @media (max-width: 1024px) {
-        .slick-prev, .slick-next {
-            display: none !important; /* Ensure arrows are hidden */
-        }
-
-        .slick-dots {
-            padding: 5px 0;  /* Reduce padding for mobile to minimize gap */
-        }
-    }
-
-    /* Ensure arrows are visible on desktop */
-    @media (min-width: 1024px) {
-        .slick-prev, .slick-next {
-            display: block !important; /* Force the arrows to show on desktop */
-        }
-    }
-
-    /* Add hover effect for the arrows */
-    .slick-prev:hover, .slick-next:hover {
-        color: var(--blue-color); /* Or any other color you prefer */
+    @media (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-between;
     }
 `;
 
-const LogoAndName = styled.div`
-  background-color: var(--white-color);
-  box-shadow: 0 8px 8px var(--teal-color);
-  height: 600px; /* Increase height for the carousel */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  overflow: hidden; /* Hide overflow if content exceeds */
-  margin-bottom: 1rem;
+const TextContent = styled.div`
+    flex: 1;
+    text-align: center;
 
-  @media (max-width: 768px) {
-    height: 400px; /* Increase height for smaller screens */
-  }
+    @media (min-width: 768px) {
+        text-align: left;
+    }
 `;
 
+const FormContainer = styled.div`
+    flex: 1;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+`;
 
-const Logo = styled.img`
-    width: 100%; 
-    height: 100%; 
+const CallToAction = styled.a`
+    display: inline-block;
+    text-decoration: none;
 `;
 
 export default Hero;

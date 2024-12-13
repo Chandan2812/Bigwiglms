@@ -1,6 +1,4 @@
 
-import admin from "../assets/features/admin panel.webp";
-import vendor from "../assets/features/vendor.webp";
 import document from "../assets/features/document (1).webp";
 import communication from '../assets/features/counselor.webp';
 import { motion } from "framer-motion";
