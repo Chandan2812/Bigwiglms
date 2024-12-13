@@ -15,7 +15,7 @@ function Features() {
         "Ad Campaign Integration",
         "Centralized Lead Database",
       ],
-      imageUrl: "https://20088174.fs1.hubspotusercontent-na1.net/hub/20088174/hubfs/How-to-Use-Automated-Real-Estate-Lead-Generations.png?width=1800&quality=high",
+      imageUrl: "https://metroguild.com/wp-content/uploads/2024/03/Precise-Source-Tracking.png",
     },
     {
       title: "Lead Management",
@@ -27,7 +27,7 @@ function Features() {
         "Custom Filters",
         "Real-Time Updates",
       ],
-      imageUrl: "https://static.vecteezy.com/system/resources/previews/012/958/739/non_2x/3d-home-insurance-icon-toy-house-floating-in-hand-isolated-on-transparent-business-invest-real-estate-mortgage-offer-of-purchase-house-loan-concept-mockup-cartoon-minimal-icon-3d-rendering-png.png",
+      imageUrl: "https://www.agentlegend.com/hubfs/Imported_Blog_Media/7-Real-Estate-Lead-Lifecycle-Stages-You-Should-Be-Tracking.png",
     },
     {
       title: "Lead Assignment",
@@ -39,7 +39,7 @@ function Features() {
         "Real-Time Notifications",
         "Improved Response Times",
       ],
-      imageUrl: "https://static.vecteezy.com/system/resources/previews/012/958/739/non_2x/3d-home-insurance-icon-toy-house-floating-in-hand-isolated-on-transparent-business-invest-real-estate-mortgage-offer-of-purchase-house-loan-concept-mockup-cartoon-minimal-icon-3d-rendering-png.png",
+      imageUrl: "https://metroguild.com/wp-content/uploads/2023/08/Intelligent-Lead-assignment-1-768x476.png",
     },
     {
       title: "Follow-Up and Nurturing",
@@ -51,7 +51,7 @@ function Features() {
         "Customizable Templates",
         "Scheduled Reminders",
       ],
-      imageUrl: "https://static.vecteezy.com/system/resources/previews/012/958/739/non_2x/3d-home-insurance-icon-toy-house-floating-in-hand-isolated-on-transparent-business-invest-real-estate-mortgage-offer-of-purchase-house-loan-concept-mockup-cartoon-minimal-icon-3d-rendering-png.png",
+      imageUrl: "https://metroguild.com/wp-content/uploads/2023/08/feature-omnichannel-768x502.png",
     },
     {
       title: "Analytics and Reporting",
@@ -63,7 +63,7 @@ function Features() {
         "Performance Tracking",
         "Customizable Dashboards",
       ],
-      imageUrl: "https://static.vecteezy.com/system/resources/previews/012/958/739/non_2x/3d-home-insurance-icon-toy-house-floating-in-hand-isolated-on-transparent-business-invest-real-estate-mortgage-offer-of-purchase-house-loan-concept-mockup-cartoon-minimal-icon-3d-rendering-png.png",
+      imageUrl: "https://metroguild.com/wp-content/uploads/2023/08/Actionable-Insights-1-768x526.png",
     },
     {
       title: "Integration with CRM and Marketing Tools",
@@ -75,7 +75,7 @@ function Features() {
         "Streamlined Workflow",
         "Enhanced Collaboration",
       ],
-      imageUrl: "https://static.vecteezy.com/system/resources/previews/012/958/739/non_2x/3d-home-insurance-icon-toy-house-floating-in-hand-isolated-on-transparent-business-invest-real-estate-mortgage-offer-of-purchase-house-loan-concept-mockup-cartoon-minimal-icon-3d-rendering-png.png",
+      imageUrl: "https://metroguild.com/wp-content/uploads/2023/08/Hyper-Personalized-engagement-768x486.png",
     },
     {
       title: "Automated Notifications",
@@ -87,7 +87,7 @@ function Features() {
         "Custom Notification Settings",
         "Real-Time Updates",
       ],
-      imageUrl: "https://static.vecteezy.com/system/resources/previews/012/958/739/non_2x/3d-home-insurance-icon-toy-house-floating-in-hand-isolated-on-transparent-business-invest-real-estate-mortgage-offer-of-purchase-house-loan-concept-mockup-cartoon-minimal-icon-3d-rendering-png.png",
+      imageUrl: "https://metroguild.com/wp-content/uploads/2023/08/real-estate-Hyper-Presonalized-300x300.png",
     },
     {
       title: "Document Management & E-signatures",
