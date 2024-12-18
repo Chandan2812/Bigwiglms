@@ -8,6 +8,7 @@ import StatsSection from "../components/Stats";
 import { useEffect, useState } from "react";
 import LayoutComponent from "../components/Universities";
 import Clients from "../components/OurClient";
+import Blog from "../components/Blog";
 
 
 
@@ -44,6 +45,7 @@ function Landing() {
             <Clients/>
             <StatsSection/>
             <Features/>
+            <Blog/>
             <AboutUs/>
             <FAQ/>
             <Footer/>
