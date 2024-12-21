@@ -16,6 +16,7 @@ function Features() {
         "Centralized Lead Database",
       ],
       imageUrl: "https://metroguild.com/wp-content/uploads/2024/03/Precise-Source-Tracking.png",
+      id: "Lead-Capture"
     },
     {
       title: "Lead Management",
@@ -28,6 +29,7 @@ function Features() {
         "Real-Time Updates",
       ],
       imageUrl: "https://www.agentlegend.com/hubfs/Imported_Blog_Media/7-Real-Estate-Lead-Lifecycle-Stages-You-Should-Be-Tracking.png",
+      id: "Lead-Management"
     },
     {
       title: "Lead Assignment",
@@ -40,6 +42,7 @@ function Features() {
         "Improved Response Times",
       ],
       imageUrl: "https://metroguild.com/wp-content/uploads/2023/08/Intelligent-Lead-assignment-1-768x476.png",
+      id: "Lead-Assignment"
     },
     {
       title: "Follow-Up and Nurturing",
@@ -52,6 +55,7 @@ function Features() {
         "Scheduled Reminders",
       ],
       imageUrl: "https://metroguild.com/wp-content/uploads/2023/08/feature-omnichannel-768x502.png",
+      id: "Follow-Up"
     },
     {
       title: "Analytics and Reporting",
@@ -64,6 +68,7 @@ function Features() {
         "Customizable Dashboards",
       ],
       imageUrl: "https://metroguild.com/wp-content/uploads/2023/08/Actionable-Insights-1-768x526.png",
+      id: "Analytics"
     },
     {
       title: "Integration with CRM and Marketing Tools",
@@ -76,6 +81,7 @@ function Features() {
         "Enhanced Collaboration",
       ],
       imageUrl: "https://metroguild.com/wp-content/uploads/2023/08/Hyper-Personalized-engagement-768x486.png",
+      id: "Integration"
     },
     {
       title: "Automated Notifications",
@@ -88,6 +94,7 @@ function Features() {
         "Real-Time Updates",
       ],
       imageUrl: "https://metroguild.com/wp-content/uploads/2023/08/real-estate-Hyper-Presonalized-300x300.png",
+      id: "Automated"
     },
     {
       title: "Document Management & E-signatures",
@@ -100,6 +107,7 @@ function Features() {
         "Document Tracking",
       ],
       imageUrl: document, // Keep the same image for now
+      id: "Document"
     },
     {
       title: "Task & Workflow Automation",
@@ -112,6 +120,7 @@ function Features() {
         "Workflow Automation",
       ],
       imageUrl: communication, // Keep the same image for now
+      id: "Task"
     },
   ];
   
@@ -135,6 +144,7 @@ function Features() {
       {featureData.map((feature, index) => (
         <div
           key={index}
+          id={feature.id}
           className={`max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-2 md:gap-8 mt-${
             index === 0 ? 0 : 16
           } mt-10`}
