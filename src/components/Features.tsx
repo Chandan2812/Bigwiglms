@@ -8,7 +8,7 @@ function Features() {
     {
       title: "Lead Capture",
       description:
-        "Effortlessly collect leads from various sources, including your website, social media platforms, and ad campaigns. Ensure no potential client is missed with our automated lead collection tools.",
+        "Tired of chasing leads like a cat chasing a laser pointer? Relax, we’ve got this! Capture leads from your website, social media, and ad campaigns without lifting a finger. Finally, your inbox will stop looking like a bad dating app.",
       listItems: [
         "Website Integration",
         "Social Media Tracking",
@@ -16,12 +16,12 @@ function Features() {
         "Centralized Lead Database",
       ],
       imageUrl: "https://metroguild.com/wp-content/uploads/2024/03/Precise-Source-Tracking.png",
-      id: "Lead-Capture"
+      id: "Lead-Capture",
     },
     {
       title: "Lead Management",
       description:
-        "Organize and update all your leads in one place with our intuitive management tools. Easily search, filter, and prioritize your pipeline for maximum efficiency.",
+        "Managing leads shouldn’t feel like herding cats. With our tools, it’s more like herding… stuffed animals. Search, sort, and prioritize without losing your cool—or your leads.",
       listItems: [
         "Centralized Dashboard",
         "Quick Lead Search",
@@ -29,12 +29,12 @@ function Features() {
         "Real-Time Updates",
       ],
       imageUrl: "https://www.agentlegend.com/hubfs/Imported_Blog_Media/7-Real-Estate-Lead-Lifecycle-Stages-You-Should-Be-Tracking.png",
-      id: "Lead-Management"
+      id: "Lead-Management",
     },
     {
       title: "Lead Assignment",
       description:
-        "Distribute leads smartly among team members or agents. Ensure fast and effective follow-ups with automated or manual lead assignment based on customizable criteria.",
+        "Assign leads so smoothly, your team might think you’re some kind of wizard. Whether it’s manual or automatic, we make sure the right person gets the lead without any 'Not it!' moments.",
       listItems: [
         "Smart Lead Distribution",
         "Custom Assignment Rules",
@@ -42,12 +42,12 @@ function Features() {
         "Improved Response Times",
       ],
       imageUrl: "https://metroguild.com/wp-content/uploads/2023/08/Intelligent-Lead-assignment-1-768x476.png",
-      id: "Lead-Assignment"
+      id: "Lead-Assignment",
     },
     {
       title: "Follow-Up and Nurturing",
       description:
-        "Keep your leads engaged with powerful follow-up tools. Reach out via emails, calls, or text messages and schedule reminders to maintain consistent communication.",
+        "Forgot to follow up? Not anymore. With our tools, staying in touch with leads is easier than ghosting your ex. Emails, calls, texts—your leads will never feel neglected again.",
       listItems: [
         "Automated Follow-Ups",
         "Multi-Channel Communication",
@@ -55,12 +55,12 @@ function Features() {
         "Scheduled Reminders",
       ],
       imageUrl: "https://metroguild.com/wp-content/uploads/2023/08/feature-omnichannel-768x502.png",
-      id: "Follow-Up"
+      id: "Follow-Up",
     },
     {
       title: "Analytics and Reporting",
       description:
-        "Gain valuable insights into your lead management process with our detailed analytics and reports. Track conversion rates, agent performance, and response times with ease.",
+        "Who doesn’t love charts and graphs? Get insights so good, you’ll start using them as icebreakers at parties. Track performance, conversions, and every other stat you didn’t know you needed.",
       listItems: [
         "Detailed Reports",
         "Conversion Rate Analysis",
@@ -68,12 +68,12 @@ function Features() {
         "Customizable Dashboards",
       ],
       imageUrl: "https://metroguild.com/wp-content/uploads/2023/08/Actionable-Insights-1-768x526.png",
-      id: "Analytics"
+      id: "Analytics",
     },
     {
       title: "Integration with CRM and Marketing Tools",
       description:
-        "Easily sync with your favorite CRM and marketing platforms to streamline your workflows and enhance efficiency.",
+        "Sync your favorite tools like peanut butter and jelly. No more switching between tabs like you’re playing whack-a-mole. It’s all in one place, and your sanity thanks you.",
       listItems: [
         "CRM Synchronization",
         "Marketing Tool Integration",
@@ -81,12 +81,12 @@ function Features() {
         "Enhanced Collaboration",
       ],
       imageUrl: "https://metroguild.com/wp-content/uploads/2023/08/Hyper-Personalized-engagement-768x486.png",
-      id: "Integration"
+      id: "Integration",
     },
     {
       title: "Automated Notifications",
       description:
-        "Stay on top of your leads with instant alerts and reminders. Ensure timely follow-ups and lead updates to never miss an opportunity.",
+        "Notifications so instant, they’ll make you feel psychic. From follow-ups to lead updates, you’ll always be one step ahead, like a lead-managing superhero.",
       listItems: [
         "Instant Alerts",
         "Follow-Up Reminders",
@@ -94,12 +94,12 @@ function Features() {
         "Real-Time Updates",
       ],
       imageUrl: "https://metroguild.com/wp-content/uploads/2023/08/real-estate-Hyper-Presonalized-300x300.png",
-      id: "Automated"
+      id: "Automated",
     },
     {
       title: "Document Management & E-signatures",
       description:
-        "Simplify document handling with secure document storage and e-signature integration. Ensure all real estate documents are easily accessible and legally compliant.",
+        "Paperwork? Gross. E-signatures? Fantastic. Store, manage, and sign documents without breaking a sweat—or a pen.",
       listItems: [
         "Secure Document Storage",
         "E-Signatures Integration",
@@ -107,12 +107,12 @@ function Features() {
         "Document Tracking",
       ],
       imageUrl: document, // Keep the same image for now
-      id: "Document"
+      id: "Document",
     },
     {
       title: "Task & Workflow Automation",
       description:
-        "Automate key tasks and workflows to improve efficiency. Schedule property viewings, follow-up reminders, and task assignments to optimize the sales process.",
+        "Automate tasks like a boss. Schedule viewings, assign leads, and set reminders while you sit back and sip coffee (or something stronger).",
       listItems: [
         "Automated Task Assignments",
         "Viewing Scheduling",
@@ -120,9 +120,10 @@ function Features() {
         "Workflow Automation",
       ],
       imageUrl: communication, // Keep the same image for now
-      id: "Task"
+      id: "Task",
     },
   ];
+  
   
   const variants = {
     hidden: (direction: string) => ({

@@ -46,9 +46,9 @@ const Clients: React.FC = () => {
     };
   
     return (
-      <div className="w-full mx-auto h-32 bg-white mb-28 ">
+      <div className="w-full mx-auto  bg-white  ">
         <div>
-        <h1 className="text-center text-2xl md:text-4xl my-5 font-bold">Our Clients</h1>
+        <h1 className="text-2xl md:text-3xl font-semibold px-5 text-center text-gray-800">Our Clients</h1>
         </div>
         
         <Slider {...settings}>

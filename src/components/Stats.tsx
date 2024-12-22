@@ -30,7 +30,7 @@ const AnimatedNumber: React.FC<AnimatedNumberProps> = ({ value }) => {
 
 const StatsSection = () => {
   return (
-    <div className="mt-36">
+    <div className="mt-12">
       <h2 className="text-2xl md:text-3xl font-semibold mb-8 px-5 text-center text-gray-800">
         Empowering Real Estate Growth Globally
       </h2>

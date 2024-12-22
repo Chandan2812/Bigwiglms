@@ -95,9 +95,10 @@ const Container = styled.div`
 
 const BlogTitle = styled.h1`
   font-size: 2rem;
-  color: var(--Heading);
+  color: #1F2937;
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600
 `;
 
 const Description = styled.h1`
